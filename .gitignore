@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env*
+
+# Downloaded datasets and derived image data
+data/
+png_images/
+
+# Generated model checkpoints
+outputs/*.pth
+outputs/*.pt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
